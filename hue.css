@@ -5,7 +5,7 @@
 
 :root {
   background-color: coral;
-  background-image: radial-gradient(plum, hotpink, violet, orchid, hotpink);
+  background-image: conic-gradient(gold, turquoise, hotpink, violet, mediumaquamarine, deepskyblue);
   color: indigo;
 }
 
@@ -14,9 +14,8 @@
   background-color: transparent;
   text-shadow:
     2vw -3vh 1pc,
-    3vw 3vh 1pc,
-    5vw -3vh 1pc,
-    -2vw 3vh 3pc;
+    3vw -5vh 2pc,
+    5vw -8vh 3pc;
 }
 
 :focus {

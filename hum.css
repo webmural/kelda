@@ -16,7 +16,12 @@ a {
   text-decoration-line: line-through;
 }
 
-nav {
+p {
+  text-align: end;
+  writing-mode: vertical-rl;
+}
+
+article {
   align-items: center;
   box-sizing: border-box;
   contain: layout;
@@ -28,6 +33,10 @@ nav {
   min-height: 100vh;  
   padding: 20vh 10vw;
 }
+
+samp { display: table }
+h1 { display: inline }
+header { margin: auto }
 
 :nth-child(1n) { --vol: 1 }
 :nth-child(2n) { --vol: 1.618 }
